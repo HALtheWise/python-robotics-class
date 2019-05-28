@@ -44,7 +44,7 @@ def turn_right(angle = 90):
     set_right_motor(-0.5)
     sleep(angle * SECONDS_PER_DEGREE)
     stop()
-    
+
 def stop():
     set_left_motor(0)
     set_right_motor(0)
